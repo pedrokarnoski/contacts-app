@@ -27,7 +27,7 @@ export function Avatar({ image, name, variant = "medium" }: Props) {
         />
       ) : (
         <View className={`${variants.size[variant]} items-center justify-center bg-white`}>
-          <Text className={`${variants.text[variant]} font-semibold`}>
+          <Text className={`${variants.text[variant]} font-semibold align-middle`}>
             {name[0].toUpperCase()}
           </Text>
         </View>

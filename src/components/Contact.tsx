@@ -22,7 +22,7 @@ export function Contact({ contact, ...rest }: Props) {
     <TouchableOpacity {...rest}>
       <View className="flex-row items-center rounded-md gap-4">
         <Avatar name={contact.name} image={contact.image} />
-        <Text className=" text-black font-medium text-lg">{contact.name}</Text>
+        <Text className=" text-gray-500 font-medium text-lg">{contact.name}</Text>
       </View>
     </TouchableOpacity>
   );
